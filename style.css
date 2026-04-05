@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-home-page{
+    height: 100vh;
+    background-image: url("./home.jpg");
+    background-size: 90%;
+}
+.portfolio-home-page a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    color: white;
+    position: relative;
+    right: 10%;
+    top: 5%;
+}
+.nav-bar ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 17%;
+    top: 5%;
+    font-weight: 500;
+}
+.nav-bar ul li{
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar ul li:hover{
+    color: lightskyblue;
+}
+.intro{
+    font-size: 46px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+    margin-left: 100px;
+    top: 115px;
+}
+.skill{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: lightskyblue;
+    position: relative;
+    top: 105px;
+    margin-left: 100px;
+}
+.description{
+    width: 450px;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left:100px;
+    top: 125px;
+}
+.hireme{
+    width: 120px;
+    height: 40px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+    margin-left: 100px;
+}
+.talk{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    top: 160px;
+    margin-left: 250px;
+    color: lightskyblue;
+}
+.social-links{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+    top: 210px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    
+}
+.twiter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    position: relative;
+    left: 20px;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    position: relative;
+    left: 40px;
+}
+.hireme:hover{
+    background-color: transparent;
+    transition: .5s ease-in-out;
+    border: 2px solid lightskyblue;
+    color: lightskyblue;
+}
+.talk:hover{
+    background-color: lightskyblue;
+    transition: .5s ease-in-out;
+    color: black;
+}
+.twiter:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    transition: .5s ease-in;
+}
+.facebook:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    transition: .5s ease-in;
+}
+.linkedin:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    transition: .5s ease-in;
+}
